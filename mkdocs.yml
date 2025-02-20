@@ -1,0 +1,34 @@
+site_name: ETC 2073 (Artifical Intelligence)
+site_url: https://mydomain.org/mysite
+theme:
+
+  name: material
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+
+nav: 
+      - Home: index.md
+      - Chapter 2 Fuzzy Logic and Fuzzy Inference Systems: Chapter 2
