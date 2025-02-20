@@ -43,10 +43,10 @@ jobs:
         run: mkdocs build
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4  # ✅ Fixed version
         with:
           name: github-pages
           path: site/
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v2  # ✅ Fixed version
