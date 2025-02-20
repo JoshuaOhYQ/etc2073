@@ -1,33 +1,52 @@
-name: ci
+name: Deploy MkDocs
+
 on:
   push:
     branches:
       - master
       - main
+
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    if: github.event.repository.fork == false
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Configure Git Credentials
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-      - uses: actions/cache@v4
+          python-version: '3.x'
+
+      - name: Setup cache
+        uses: actions/cache@v4
         with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache 
+          path: .cache
+          key: mkdocs-material-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
-            mkdocs-material-
-      - run: apt-get install pngquant 
-      - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
-      - run: mkdocs gh-deploy --force
-env:
-  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+            mkdocs-material-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: pip install --upgrade mkdocs-material
+
+      - name: Build site
+        run: mkdocs build
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: site/
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v2
