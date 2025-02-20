@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# Welcome to ETC2073 (Artificial Intelligence)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is a year 2 subject for Bachelor of Electronic and Electrical Engineering with Honours
 
 ## Commands
 
