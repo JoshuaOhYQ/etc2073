@@ -5,3 +5,9 @@
  Hello world
  from Prof Mayeen
 ```
+
+| Name           | Age | Occupation     |
+|:---------------|:---:|---------------:|
+| John Doe       | 28  | Software Engineer |
+| Jane Smith     | 34  | Data Scientist |
+| Alice Johnson  | 22  | Student        |
