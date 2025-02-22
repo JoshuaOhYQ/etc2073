@@ -12,4 +12,4 @@
 | Jane Smith     | 34  | Data Scientist |
 | Alice Johnson  | 22  | Student        |
 
-![image alt](https://github.com/JoshuaOhYQ/etc2073/blob/6cf8d79c2982534f5397431e69a04fc9a4775dcb/Screenshot%202025-02-22%20105839.png)
+
