@@ -25,7 +25,7 @@
 
 
 ### Propositional logic
-<u>Logical connective</u>
+####Logical connective
 
 | Symbol | Name         | Example | English equivalent                  |
 |--------|--------------|---------|-------------------------------------|
@@ -37,7 +37,7 @@
 
 Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ are also valid and can be formed using the basic logical operators listed above. 🙂
 
-<u>Antecedent and consequence</u>
+####Antecedent and consequence
 + Antecedent: The "IF" part of a conditional statement
 + Consequent: The "Then" part of a conditional statement
 + Example:<br>If __r__ and __p__ then __q__<br>__r__ ∧ __p__ ⇒ __q__<br>Antecedent (IF) = __r__ ∧ __p__<br>Consequent (Then) = __q__
