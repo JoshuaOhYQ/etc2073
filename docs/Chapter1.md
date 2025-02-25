@@ -24,7 +24,7 @@
 | Fuzzy logic         | Facts with degree of truth ∈ [0, 1] | Known interval value       |
 
 
-### Propositional logic
+### <u>Propositional logic</u>
 | Symbol | Name         | Example | English equivalent                  |
 |--------|--------------|---------|-------------------------------------|
 | ∧      | conjunction  | p ∧ q   | p and q                             |
