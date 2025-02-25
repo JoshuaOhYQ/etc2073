@@ -56,8 +56,8 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
   | 3x + y  | a well-formed arithmetic expression |
   | 3x + y > 2  | a valid mathematical inequality |
   
-+ __Correct syntax__ : p ∧ q<br>Incorrect syntax: p ∧ (incomplete statement)
-+ __Statements__ also called sentences in logic
++ __Correct syntax__ : p ∧ q<br>__Incorrect syntax__: p ∧ (incomplete statement)
++ Statements also called sentences in logic
   
 
 
