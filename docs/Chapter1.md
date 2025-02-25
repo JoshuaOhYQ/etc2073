@@ -48,6 +48,7 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
 + A correctly formed statement has a meaning within the definition of the language
 + In simple words, syntax is the way to write the statements
 + Examples:<br>
+
   | Statements | Comment  |   
   |------------|----------|
   | p   | a fact  | 
@@ -64,6 +65,7 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
 + can be TRUE or FALSE in propositional logic
 + In logic, semantics provides the rules for interpreting the symbols and sentences of a formal language.
 + Examples:<br>
+
   | Statements | Comment  |   
   |------------|----------|
   | __p__   | This is a simple propositional statement. The meaning of p depends on the interpretation assigned to it.  | 
