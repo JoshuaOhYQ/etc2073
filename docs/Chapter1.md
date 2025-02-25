@@ -70,7 +70,7 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
   |------------|----------|
   | __p__   | This is a simple propositional statement. The meaning of p depends on the interpretation assigned to it.  | 
   | __p__ ∧ __q__ if __p__ is true and __q__ is true  | This is a conjunction in propositional logic. The statement __p__ ∧ __q__ means ''both __p__ and __q__ are true'' ( __p__ ∧ __q__  is true if and only if both __p__ and __q__ are true. If either __p__ or __q__ is false, the entire statement is false) |
-  |3__x__ + __y__ > 2 if __x__ is 2 and __y__ is 1| This is a mathematical inequality involving variables __x__ and __y__. The statement is a predicate logic expression. The truth of this statement depends on the values assigned to __x__ and __y__.  |
+  |3 __x__ + __y__ > 2 if __x__ is 2 and __y__ is 1| This is a mathematical inequality involving variables __x__ and __y__. The statement is a predicate logic expression. The truth of this statement depends on the values assigned to __x__ and __y__.  |
 
 #### CheckPoint 1 🎆🎆 (Conjunction, Disjunction and Negation):
  | p     | q     | p ∧ q | p ∨ q | ∼p   | ∼q   |
