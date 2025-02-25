@@ -41,7 +41,7 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
 + Antecedent: The "IF" part of a conditional statement
 + Consequent: The "Then" part of a conditional statement
 + Example:<br>If __r__ and __p__ then __q__<br>__r__ ∧ __p__ ⇒ __q__<br>Antecedent (IF) = __r__ ∧ __p__<br>Consequent (Then) = __q__
-+ Antecedent and consequence is used to describe components of a conditional statement, often referred to as an __implication__ (only __FALSE__ when antecedent is true and consequent is false, otherwise it is __TRUE__)
++ Antecedent and consequence is used to describe components of a conditional statement, often referred to as an __implication__ (only __FALSE__ when antecedent is true and consequent is false, otherwise it is __TRUE__) ❗❗❗
   
   
 
