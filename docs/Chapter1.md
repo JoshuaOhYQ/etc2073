@@ -20,8 +20,8 @@
 | Propositional logic | Facts                           | True/False                 |
 | First order logic   | Facts, objects, relations       | True/False                 |
 | Temporal logic      | Facts, objects, relations, time| True/False                 |
-| Probability theory  | Facts                           | Degree of belief \( \in [0, 1] \) |
-| Fuzzy logic         | Facts with degree of truth \( \in [0, 1] \) | Known interval value       |
+| Probability theory  | Facts                           | Degree of belief ∈ [0, 1]  |
+| Fuzzy logic         | Facts with degree of truth ∈ [0, 1] | Known interval value       |
 
 
 ### Propositional logic
@@ -32,6 +32,8 @@
 | ¬ or ∼ | negation     | ¬p or ∼p| not p                               |
 | ⇒      | implication  | p ⇒ q   | p implies q<br>if p then q          |
 | ⟺      | biconditional| p ⟺ q   | p if and only if q<br>p equivalent to q |  
+
+Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ are also valid and can be formed using the basic logical operators listed above. 🙂
 
 
 
