@@ -25,6 +25,7 @@
 
 
 ### Propositional logic
+
 ####Logical connective:
 
 | Symbol | Name         | Example | English equivalent                  |
