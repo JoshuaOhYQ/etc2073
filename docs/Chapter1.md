@@ -37,16 +37,35 @@
 
 Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ are also valid and can be formed using the basic logical operators listed above. 🙂
 
-####Antecedent and consequence:
+#### Antecedent and consequence:
 + Antecedent: The "IF" part of a conditional statement
 + Consequent: The "Then" part of a conditional statement
 + Example:<br>If __r__ and __p__ then __q__<br>__r__ ∧ __p__ ⇒ __q__<br>Antecedent (IF) = __r__ ∧ __p__<br>Consequent (Then) = __q__
 + Antecedent and consequence is used to describe components of a conditional statement, often referred to as an __implication__ (only __FALSE__ when antecedent is true and consequent is false, otherwise it is __TRUE__) ❗❗❗
   
+#### Syntax:
++ Syntax is how an expression (statement) can be formed
++ A correctly formed statement has a meaning within the definition of the language
++ In simple words, syntax is the way to write the statements
++ Examples:<br>
+  | Statements | Comment  |   
+  |------------|----------|
+  | p   | a fact  | 
+  | p ∧ q  | a conjunction of 2 facts |
+  | x4y + =  | not a well-formed expression |
+  | 3x + y  | a well-formed arithmetic expression |
+  | 3x + y > 2  | a valid mathematical inequality |
+  
++ __Correct syntax__ : p ∧ q<br>Incorrect syntax: p ∧ (incomplete statement)
++ __Statements__ also called sentences in logic
   
 
 
 
+
+
+
+   
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
