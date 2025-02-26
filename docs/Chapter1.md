@@ -147,16 +147,29 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
 + Predicate symbol represents a porperty or relation, for instance from the image above, brother, person, king.
 + When we apply arguments to a predicate, it forms a predicate expression, for instance Brother(Richard, John)
 + Predicate expression can be evaluated as either true or false in a given context, for instance Brother(Richard, John) will return true as the statement based on the image above is true.
-+ Arity of a predicate helps determine how many objects are involved in the property or relationship it describes:  
-  a. **<span style="color:red;">Unary Relations (Arity = 1)</span>**<br>takes one argument (property of a single object)<br>Person(Richard): Richard is a person<br>King(John): John is a king<br>Crown(K): K is a crown
-  
-  b. **<span style="color:red;">Binary Relations (Arity = 2)</span>**<br>takes two argument (Relationships between 2 objects)<br>Brother(Richard, John): Richard is the brother of John<br>OnHead(K, John): Object K is on John's head
+- **Arity of a predicate** helps determine how many objects are involved in the property or relationship it describes:  
+  a. **<span style="color:red;">Unary Relations (Arity = 1)</span>**  
+     - Takes one argument (property of a single object).  
+     - Examples:  
+       - `Person(Richard)`: Richard is a person.  
+       - `King(John)`: John is a king.  
+       - `Crown(K)`: K is a crown.  
 
-  c. **<span style="color:red;">Higher-Arity Relations</span>**<br>Predicates can also have higher arities <br>Example: ternary relations with arity 3<br>Between(x, y, z): object y is in between objects x and z
+  b. **<span style="color:red;">Binary Relations (Arity = 2)</span>**  
+     - Takes two arguments (relationships between 2 objects).  
+     - Examples:  
+       - `Brother(Richard, John)`: Richard is the brother of John.  
+       - `OnHead(K, John)`: Object K is on John's head.  
 
-+ Examples (from previous image):
+  c. **<span style="color:red;">Higher-Arity Relations</span>**  
+     - Predicates can also have higher arities.  
+     - Example: Ternary relations with arity 3.  
+       - `Between(x, y, z)`: Object y is between objects x and z.
+
++ **Examples (from previous image):**
+
 | Symbol   | Arity | Example           |
-|----------|--------|-------------------|
+|:--------:|:-----:|:-----------------:|
 | Brother  | 2      | Brother(Richard, John) |
 | OnHead   | 2      | OnHead(K, John)   |
 | Person   | 1      | Person(Richard)   |
