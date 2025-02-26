@@ -216,3 +216,15 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
   3. **Higher arities**: Functions can also have arities greater than 2.  
      - Example: A ternary function (arity 3) could be `Combine(x, y, z)` → Combines `x`, `y`, and `z` into a single result.
 
+#### Universal quantifier, ∀
++ It means __for all__ or __for every__.
++ Statement that follows applies to all members of the domain that is being considered.
++ It is used to make general statements about all elements in a domain.
++ Typically written as ∀x, where x is a variable (expression after ∀x applied to all possible values of x in the domain)
++ **Examples**:  
+  1. `∀x King(x) ⇒ Person(x)`  
+     - **Translation**: For all `x`, if `x` is a king, then `x` is a person.  
+
+  2. `∀x, y Brother(x, y) ⇒ Person(x) ∧ Person(y)`  
+     - **Translation**: For all `x` and `y`, if `x` is the brother of `y`, then `x` is a person and `y` is a person.
+
