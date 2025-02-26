@@ -73,7 +73,7 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
   |3 __x__ + __y__ > 2 if __x__ is 2 and __y__ is 1| This is a mathematical inequality involving variables __x__ and __y__. The statement is a predicate logic expression. The truth of this statement depends on the values assigned to __x__ and __y__.  |
 
 #### CheckPoint 1 🎆🎆 (Conjunction, Disjunction and Negation):
- | p     | q     | p ∧ q | p ∨ q | ∼p   | ∼q   |
+  | p     | q     | p ∧ q | p ∨ q | ∼p   | ∼q   |
  |-------|-------|-------|-------|------|------|
  | false | false | false | false | true | true |
  | true  | false | false | true  | false| true |
@@ -83,6 +83,14 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
 #### Implications:
 + Let say, <br> __p__ ⇒ __q__<br> __p__ implies q<br> if __p__ (if true) then __q__ (is true)
 + Same with __<span style="color:red;">antecedent</span>__ and __<span style="color:red;">consequent</span>__, __implication__ is only _FALSE_ when the __<span style="color:red;">antecedent</span>__ __(IF)__ is _TRUE_ and the __<span style="color:red;">consequent</span>__ __(THEN)__ is _FALSE_, otherwise it is _TRUE_
++ Example:<br>
+
+  | __p__ = it rains    | __q__ = ground is wet | __p__ ⇒ __q__ <br>if it rains, then ground is wet|
+  |-------|-------------|-------|
+  | False | False       | True  |
+  | False | True        | True  |
+  | True  | False       | False |
+  | True  | True        | True  |
 
 
 
