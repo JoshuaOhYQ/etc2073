@@ -1,0 +1,1124 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mydomain.org/mysite/Chapter1/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.5">
+    
+    
+      
+        <title>Chapter 1 - First Order Logic and Expert Systems - ETC 2073 (Artifical Intelligence)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-1-first-order-logic-and-expert-systems" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ETC 2073 (Artifical Intelligence)" class="md-header__button md-logo" aria-label="ETC 2073 (Artifical Intelligence)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ETC 2073 (Artifical Intelligence)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 1 - First Order Logic and Expert Systems
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ETC 2073 (Artifical Intelligence)" class="md-nav__button md-logo" aria-label="ETC 2073 (Artifical Intelligence)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ETC 2073 (Artifical Intelligence)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Chapter 1 - First Order Logic and Expert Systems
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Chapter 1 - First Order Logic and Expert Systems
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is Logic ?!?!
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logic-languages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logic Languages
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Logic Languages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#propositional-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Propositional logic
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Propositional logic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#logical-connective" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logical connective:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#antecedent-and-consequence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Antecedent and consequence:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      Syntax:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#semantics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Semantics:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkpoint-1-conjunction-disjunction-and-negation" class="md-nav__link">
+    <span class="md-ellipsis">
+      CheckPoint 1 🎆🎆 (Conjunction, Disjunction and Negation):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implications:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#biconditional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Biconditional:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checkpoint-2-implication-and-biconditional" class="md-nav__link">
+    <span class="md-ellipsis">
+      CheckPoint 2 🎆🎆 (Implication and Biconditional):
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#first-order-logic-fol" class="md-nav__link">
+    <span class="md-ellipsis">
+      First Order Logic (FOL)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="First Order Logic (FOL)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#predicate-symbols" class="md-nav__link">
+    <span class="md-ellipsis">
+      Predicate symbols
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-symbols" class="md-nav__link">
+    <span class="md-ellipsis">
+      Function symbols
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#universal-quantifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      Universal quantifier, ∀
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#existential-quantifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      Existential quantifier, ∃
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Chapter 2" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chapter 2 - Fuzzy Logic and Fuzzy Inference Systems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="chapter-1-first-order-logic-and-expert-systems">Chapter 1: First Order Logic and Expert Systems</h1>
+<h2 id="what-is-logic">What is Logic ?!?!</h2>
+<ul>
+<li>Logic is a systematic representation of information and knowledge to be communicated to machine.</li>
+<li>It is expressed using specific <span style="color:green;">syntax</span> of the representation language to define the <span style="color:green;">semantics</span> of the sentences.</li>
+<li><strong><span style="color:green;">syntax</span></strong> : identify if an expression is well formed</li>
+<li><strong><span style="color:green;">semantics</span></strong> : identify the meaning of an expression</li>
+</ul>
+<hr />
+<h2 id="logic-languages">Logic Languages</h2>
+<div align="center">
+  <img src="https://github.com/JoshuaOhYQ/etc2073/blob/66ede6480a5ce33042dff7d743daafd6379a4d4d/LogicLanguage.png?raw=true" alt="Logic Language">
+</div>
+
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th>What Exists Within the Language (Ontological Commitment)</th>
+<th>What an agent believes about facts (Epistemological commitment)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Propositional logic</td>
+<td>Facts</td>
+<td>True/False</td>
+</tr>
+<tr>
+<td>First order logic</td>
+<td>Facts, objects, relations</td>
+<td>True/False</td>
+</tr>
+<tr>
+<td>Temporal logic</td>
+<td>Facts, objects, relations, time</td>
+<td>True/False</td>
+</tr>
+<tr>
+<td>Probability theory</td>
+<td>Facts</td>
+<td>Degree of belief ∈ [0, 1]</td>
+</tr>
+<tr>
+<td>Fuzzy logic</td>
+<td>Facts with degree of truth ∈ [0, 1]</td>
+<td>Known interval value</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="propositional-logic">Propositional logic</h3>
+<h4 id="logical-connective">Logical connective:</h4>
+<table>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Name</th>
+<th>Example</th>
+<th>English equivalent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>∧</td>
+<td>conjunction</td>
+<td>p ∧ q</td>
+<td>p and q</td>
+</tr>
+<tr>
+<td>∨</td>
+<td>disjunction</td>
+<td>p ∨ q</td>
+<td>p or q</td>
+</tr>
+<tr>
+<td>¬ or ∼</td>
+<td>negation</td>
+<td>¬p or ∼p</td>
+<td>not p</td>
+</tr>
+<tr>
+<td>⇒</td>
+<td>implication</td>
+<td>p ⇒ q</td>
+<td>p implies q<br>if p then q</td>
+</tr>
+<tr>
+<td>⟺</td>
+<td>biconditional</td>
+<td>p ⟺ q</td>
+<td>p if and only if q<br>p equivalent to q</td>
+</tr>
+</tbody>
+</table>
+<p>Derivative connective such as <strong>XOR(Exclusive OR)</strong> and <strong>NOR(Negation of OR)</strong> are also valid and can be formed using the basic logical operators listed above. 🙂</p>
+<h4 id="antecedent-and-consequence">Antecedent and consequence:</h4>
+<ul>
+<li>Antecedent: The "IF" part of a conditional statement</li>
+<li>Consequent: The "Then" part of a conditional statement</li>
+<li>Example:<br>If <strong>r</strong> and <strong>p</strong> then <strong>q</strong><br><strong>r</strong> ∧ <strong>p</strong> ⇒ <strong>q</strong><br>Antecedent (IF) = <strong>r</strong> ∧ <strong>p</strong><br>Consequent (Then) = <strong>q</strong></li>
+<li>Antecedent and consequence is used to describe components of a conditional statement, often referred to as an <strong>implication</strong> (only <strong>FALSE</strong> when antecedent is true and consequent is false, otherwise it is <strong>TRUE</strong>) ❗❗❗</li>
+</ul>
+<h4 id="syntax">Syntax:</h4>
+<ul>
+<li>Syntax is how an expression (statement) can be formed</li>
+<li>A correctly formed statement has a meaning within the definition of the language</li>
+<li>In simple words, syntax is the way to write the statements</li>
+<li>Examples:<br></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Statements</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>p</td>
+<td>a fact</td>
+</tr>
+<tr>
+<td>p ∧ q</td>
+<td>a conjunction of 2 facts</td>
+</tr>
+<tr>
+<td>x4y + =</td>
+<td>not a well-formed expression</td>
+</tr>
+<tr>
+<td>3x + y</td>
+<td>a well-formed arithmetic expression</td>
+</tr>
+<tr>
+<td>3x + y &gt; 2</td>
+<td>a valid mathematical inequality</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Correct syntax</strong> : p ∧ q<br><strong>Incorrect syntax</strong>: p ∧ (incomplete statement)</li>
+<li>Statements also called sentences in logic</li>
+</ul>
+<h4 id="semantics">Semantics:</h4>
+<ul>
+<li>Semantics defines the meaning of the sentences within the language it is defined in.</li>
+<li>can be TRUE or FALSE in propositional logic</li>
+<li>In logic, semantics provides the rules for interpreting the symbols and sentences of a formal language.</li>
+<li>Examples:<br></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Statements</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>p</strong></td>
+<td>This is a simple propositional statement. The meaning of p depends on the interpretation assigned to it.</td>
+</tr>
+<tr>
+<td><strong>p</strong> ∧ <strong>q</strong> if <strong>p</strong> is true and <strong>q</strong> is true</td>
+<td>This is a conjunction in propositional logic. The statement <strong>p</strong> ∧ <strong>q</strong> means ''both <strong>p</strong> and <strong>q</strong> are true'' ( <strong>p</strong> ∧ <strong>q</strong>  is true if and only if both <strong>p</strong> and <strong>q</strong> are true. If either <strong>p</strong> or <strong>q</strong> is false, the entire statement is false)</td>
+</tr>
+<tr>
+<td>3 <strong>x</strong> + <strong>y</strong> &gt; 2 if <strong>x</strong> is 2 and <strong>y</strong> is 1</td>
+<td>This is a mathematical inequality involving variables <strong>x</strong> and <strong>y</strong>. The statement is a predicate logic expression. The truth of this statement depends on the values assigned to <strong>x</strong> and <strong>y</strong>.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="checkpoint-1-conjunction-disjunction-and-negation">CheckPoint 1 🎆🎆 (Conjunction, Disjunction and Negation):</h4>
+<table>
+<thead>
+<tr>
+<th>p</th>
+<th>q</th>
+<th>p ∧ q</th>
+<th>p ∨ q</th>
+<th>∼p</th>
+<th>∼q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>false</td>
+<td>false</td>
+<td>false</td>
+<td>false</td>
+<td>true</td>
+<td>true</td>
+</tr>
+<tr>
+<td>true</td>
+<td>false</td>
+<td>false</td>
+<td>true</td>
+<td>false</td>
+<td>true</td>
+</tr>
+<tr>
+<td>false</td>
+<td>true</td>
+<td>false</td>
+<td>true</td>
+<td>true</td>
+<td>false</td>
+</tr>
+<tr>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+<td>false</td>
+<td>false</td>
+</tr>
+</tbody>
+</table>
+<h4 id="implications">Implications:</h4>
+<ul>
+<li>Let say, <br> <strong>p</strong> ⇒ <strong>q</strong><br> <strong>p</strong> implies q<br> if <strong>p</strong> (if true) then <strong>q</strong> (is true)</li>
+<li>Same with <strong><span style="color:red;">antecedent</span></strong> and <strong><span style="color:red;">consequent</span></strong>, <strong>implication</strong> is only <em>FALSE</em> when the <strong><span style="color:red;">antecedent</span></strong> <strong>(IF)</strong> is <em>TRUE</em> and the <strong><span style="color:red;">consequent</span></strong> <strong>(THEN)</strong> is <em>FALSE</em>, otherwise it is <em>TRUE</em></li>
+<li>Example:<br></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><strong>p</strong> = it rains</th>
+<th><strong>q</strong> = ground is wet</th>
+<th><strong>p</strong> ⇒ <strong>q</strong> <br>if it rains, then ground is wet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>False</td>
+<td>False</td>
+<td>True</td>
+</tr>
+<tr>
+<td>False</td>
+<td>True</td>
+<td>True</td>
+</tr>
+<tr>
+<td>True</td>
+<td>False</td>
+<td>False</td>
+</tr>
+<tr>
+<td>True</td>
+<td>True</td>
+<td>True</td>
+</tr>
+</tbody>
+</table>
+<h4 id="biconditional">Biconditional:</h4>
+<ul>
+<li>Let say, <br> <strong>p</strong> ⟺ <strong>q</strong><br> <strong>p</strong> if and only if <strong>q</strong> (is true)</li>
+<li>So, if <strong>p</strong> is <em>TRUE</em>, then <strong>q</strong> is <em>TRUE</em> ; <strong>q</strong> is <em>TRUE</em>, then <strong>p</strong> is <em>TRUE</em></li>
+<li>
+<p>Basically, <strong>p</strong> ⟺ <strong>q</strong> is true only when both <strong>p</strong> and <strong>q</strong> have the same truth value (<strong>BOTH</strong> <em>True</em> or <strong>BOTH</strong> <em>False</em>):<br></p>
+<table>
+<thead>
+<tr>
+<th><strong>p</strong></th>
+<th><strong>q</strong></th>
+<th><strong>p</strong> ⇒ <strong>q</strong></th>
+<th><strong>q</strong> ⇒ <strong>p</strong></th>
+<th><strong>p</strong> ⟺ <strong>q</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>false</td>
+<td>false</td>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+</tr>
+<tr>
+<td>false</td>
+<td>true</td>
+<td>true</td>
+<td>false</td>
+<td>false</td>
+</tr>
+<tr>
+<td>true</td>
+<td>false</td>
+<td>false</td>
+<td>true</td>
+<td>false</td>
+</tr>
+<tr>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>So, how can we prove that the statement <strong>p</strong> ⟺ <strong>q</strong> is correct or wrong?<br>
+  <u>We can show that <strong>p</strong> and <strong>q</strong> are logically equivalent (p implies q and q implies p), if both implications hold then <strong>p</strong> ⟺ <strong>q</strong> is correct, otherwise it is wrong!</u></p>
+</li>
+<li>Example:<br></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><strong>p</strong> <br> it rains</th>
+<th><strong>q</strong> <br> ground is wet</th>
+<th><strong>p</strong> ⇒ <strong>q</strong> <br> if it rains<br> then ground is wet</th>
+<th><strong>q</strong> ⇒ <strong>p</strong> <br> if ground is wet<br> then it rains</th>
+<th><strong>p</strong> ⟺ <strong>q</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>false</td>
+<td>false</td>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+</tr>
+<tr>
+<td>false</td>
+<td>true</td>
+<td>true</td>
+<td>false</td>
+<td>false</td>
+</tr>
+<tr>
+<td>true</td>
+<td>false</td>
+<td>false</td>
+<td>true</td>
+<td>false</td>
+</tr>
+<tr>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+</tr>
+</tbody>
+</table>
+<h4 id="checkpoint-2-implication-and-biconditional">CheckPoint 2 🎆🎆 (Implication and Biconditional):</h4>
+<table>
+<thead>
+<tr>
+<th><strong>p</strong> <br> x is divisible by 2</th>
+<th><strong>q</strong> <br> x is even</th>
+<th><strong>p</strong> ⇒ <strong>q</strong></th>
+<th><strong>q</strong> ⇒ <strong>p</strong></th>
+<th><strong>p</strong> ⟺ <strong>q</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>false</td>
+<td>false</td>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+</tr>
+<tr>
+<td>false</td>
+<td>true</td>
+<td>true</td>
+<td>false</td>
+<td>false</td>
+</tr>
+<tr>
+<td>true</td>
+<td>false</td>
+<td>false</td>
+<td>true</td>
+<td>false</td>
+</tr>
+<tr>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+<td>true</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="first-order-logic-fol">First Order Logic (FOL)</h3>
+<ul>
+<li>It is also called <strong>predicate logic</strong> due to the addition of predicate variables.</li>
+<li>FOL adds <strong>3</strong> more concepts to the syntax on top of those in <strong>propositional logic</strong>, there are:<br />
+  a. <strong><span style="color:red;">Predicate Variables</span></strong><br />
+  b. <strong><span style="color:red;">Universal Quantifier ∀</span></strong><br />
+  c. <strong><span style="color:red;">Existential Quantifier ∃</span></strong>  </li>
+<li>There are <strong>3</strong> types of symbols in FOL:<br />
+  a. <strong><span style="color:red;">Constant Symbols for Objects</span></strong> (represent specific, fixed objects in the domain such as names or fixed objects in the domain that do not change).<br />
+  b. <strong><span style="color:red;">Predicate Symbols for Relations</span></strong> (represent relations or properties that can be <strong>true or false</strong> about objects in the domain &amp; they also help describe the characteristics of objects or define relationships between them).<br />
+  c. <strong><span style="color:red;">Function Symbols for Functions</span></strong> (represent mappings from one or more objects to another object; they can take constants, variables, or other functions as arguments and functions <strong>return a specific object</strong>, unlike predicates which return true or false values).</li>
+<li>Example of First Order Logic (FOL):<br>
+<br />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/JoshuaOhYQ/etc2073/935fa3309d1d28db5159194c0b977558bb5a50b7/FOL.png" alt="FOL">
+</div></li>
+</ul>
+<p><br>What are the Constant symbols, Predicate symbols, and Function symbols from the image above?<br><br></p>
+<p><strong><span style="color:red;"> Constant Symbols:</span></strong> <br>
+- <strong>Richard</strong> and <strong>John</strong> (represents 2 specific individuals).<br />
+- <strong>K</strong> (represents the crown as a specific object).  </p>
+<p><strong><span style="color:red;"> Predicate Symbols:</span></strong><br>
+- <code>Person(R)</code> -&gt; Richard is a person. <span style="color:green;"><strong>(TRUE)</strong></span><br />
+- <code>Person(J)</code> -&gt; John is a person. <span style="color:green;"><strong>(TRUE)</strong></span><br />
+- <code>King(J)</code> -&gt; John is a king. <span style="color:green;"><strong>(TRUE)</strong></span><br />
+- <code>Brother(R,J)</code> -&gt; Richard is John's brother. <span style="color:green;"><strong>(TRUE)</strong></span><br />
+- <code>OnHead(K, J)</code> -&gt; The crown (K) is on John's head. <span style="color:green;"><strong>(TRUE)</strong></span><br />
+- <code>Crown(K)</code> -&gt; K is a crown. <span style="color:green;"><strong>(TRUE)</strong></span>  </p>
+<p><strong><span style="color:red;"> Function Symbols:</span></strong><br>
+- <code>LeftLeg(R)</code> -&gt; refers to Richard's left leg.<br />
+- <code>LeftLeg(J)</code> -&gt; refers to John's left leg.  </p>
+<h4 id="predicate-symbols">Predicate symbols</h4>
+<ul>
+<li>Predicate symbol represents a property or relation, for instance from the image above, brother, person, king.</li>
+<li>When we apply arguments to a predicate, it forms a predicate expression, for instance Brother(Richard, John)</li>
+<li>Predicate expression can be evaluated as either true or false in a given context, for instance Brother(Richard, John) will return true as the statement based on the image above is true.</li>
+<li><strong>Arity of a predicate</strong> helps determine how many objects are involved in the property or relationship it describes:  </li>
+<li>
+<p><strong><span style="color:red;">Unary Relations (Arity = 1)</span></strong>  </p>
+<ul>
+<li>Takes one argument (property of a single object).  </li>
+<li>Examples:  </li>
+<li><code>Person(Richard)</code>: Richard is a person.  </li>
+<li><code>King(John)</code>: John is a king.  </li>
+<li><code>Crown(K)</code>: K is a crown.  </li>
+</ul>
+</li>
+<li>
+<p><strong><span style="color:red;">Binary Relations (Arity = 2)</span></strong>  </p>
+<ul>
+<li>Takes two arguments (relationships between 2 objects).  </li>
+<li>Examples:  </li>
+<li><code>Brother(Richard, John)</code>: Richard is the brother of John.  </li>
+<li><code>OnHead(K, John)</code>: Object K is on John's head.  </li>
+</ul>
+</li>
+<li>
+<p><strong><span style="color:red;">Higher-Arity Relations</span></strong>  </p>
+<ul>
+<li>Predicates can also have higher arities.  </li>
+<li>Example: Ternary relations with arity 3.  </li>
+<li><code>Between(x, y, z)</code>: Object y is between objects x and z.</li>
+</ul>
+</li>
+<li>
+<p><strong>Examples (from previous image):</strong></p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: center;">Arity</th>
+<th style="text-align: center;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Brother</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Brother(Richard, John)</td>
+</tr>
+<tr>
+<td style="text-align: center;">OnHead</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">OnHead(K, John)</td>
+</tr>
+<tr>
+<td style="text-align: center;">Person</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Person(Richard)</td>
+</tr>
+<tr>
+<td style="text-align: center;">King</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">King(John)</td>
+</tr>
+<tr>
+<td style="text-align: center;">Crown</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Crown(K)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="function-symbols">Function symbols</h4>
+<ul>
+<li>Represents a mapping from one or more input objects (arguments) to an output object.</li>
+<li>Unlike predicates (which evaluate to true or false), functions will return objects as their output.</li>
+<li>In mathematical sense, a function maps an object to another object.</li>
+<li><strong>Example</strong>:  </li>
+<li><code>LeftLeg(Richard)</code> = Richard's left leg  </li>
+<li>⟨Richard⟩ LeftLeg ⟶ Richard’s left leg  </li>
+<li>Function symbol <code>LeftLeg</code> is used to map a person (input) to their left leg (output).  </li>
+</ul>
+<p><strong>Basically</strong>:<br />
+  - <strong>Richard</strong>: Input (argument) to the function.<br />
+  - <strong>LeftLeg</strong>: Function symbol.<br />
+  - <strong>Richard's left leg</strong>: Output (result) of the function.</p>
+<ul>
+<li><strong>Concept of arity also applies to function symbols</strong>:  </li>
+<li>
+<p><strong>Unary function (arity 1)</strong>: Takes one argument.  </p>
+<ul>
+<li>Example: <code>LeftLeg(Richard)</code> → Refers to Richard's left leg.  </li>
+</ul>
+</li>
+<li>
+<p><strong>Binary function (arity 2)</strong>: Takes two arguments.  </p>
+<ul>
+<li>Example: <code>Sum(x, y)</code> → Returns the sum of <code>x</code> and <code>y</code>.  </li>
+</ul>
+</li>
+<li>
+<p><strong>Higher arities</strong>: Functions can also have arities greater than 2.  </p>
+<ul>
+<li>Example: A ternary function (arity 3) could be <code>Combine(x, y, z)</code> → Combines <code>x</code>, <code>y</code>, and <code>z</code> into a single result.</li>
+</ul>
+</li>
+</ul>
+<h4 id="universal-quantifier">Universal quantifier, ∀</h4>
+<ul>
+<li>It means <strong>for all</strong> or <strong>for every</strong>.</li>
+<li>Statement that follows applies to all members of the domain that is being considered.</li>
+<li>It is used to make general statements about all elements in a domain.</li>
+<li>Typically written as ∀x, where x is a variable (expression after ∀x applied to all possible values of x in the domain)</li>
+<li><strong>Examples</strong>:  </li>
+<li>
+<p><code>∀x King(x) ⇒ Person(x)</code>  </p>
+<ul>
+<li><strong>Translation</strong>: For all <code>x</code>, if <code>x</code> is a king, then <code>x</code> is a person.  </li>
+</ul>
+</li>
+<li>
+<p><code>∀x, y Brother(x, y) ⇒ Person(x) ∧ Person(y)</code>  </p>
+<ul>
+<li><strong>Translation</strong>: For all <code>x</code> and <code>y</code>, if <code>x</code> is the brother of <code>y</code>, then <code>x</code> is a person and <code>y</code> is a person.</li>
+</ul>
+</li>
+</ul>
+<h4 id="existential-quantifier">Existential quantifier, ∃</h4>
+<ul>
+<li>It means <strong>there exists</strong> or <strong>for some</strong>.</li>
+<li>There exists at least one member of the domain for which the statement that follows is true.</li>
+<li>It is used to make statements about the existence of at least one element in the domain that satisfies a given condition.</li>
+<li>Typically written as ∃x, where x is a variable (expression after ∃x only holds true for some of x)</li>
+<li><strong>Examples</strong>: <br> <code>∃x Crown(x) ∧ OnHead(x, John)</code> <br> <strong>Translation</strong>: There exists an <code>x</code> such that <code>x</code> is a crown and x is on John's head .</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant", "navigation.instant.prefetch", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.sections", "toc.integrate", "content.code.copy"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+    
+  </body>
+</html>
