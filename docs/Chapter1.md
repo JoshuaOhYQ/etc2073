@@ -115,14 +115,14 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
   | true      | false         | false             | true              |false              |
   | true      | true          | true              | true              |true                |
 
- #### CheckPoint 2 🎆🎆 (Implication and Biconditional):
+  #### CheckPoint 2 🎆🎆 (Implication and Biconditional):
 
-  | __p__ <br> x is divisible by 2      | __q__ <br> x is even             | __p__ ⇒ __q__  | __q__ ⇒ __p__   | __p__ ⟺ __q__    |
-  |-----------|---------------|-------------------|-------------------|-------------------|
-  | false     | false         | true              | true              |true               |
-  | false     | true          | true              | false             |false               |
-  | true      | false         | false             | true              |false              |
-  | true      | true          | true              | true              |true                |
+     | __p__ <br> x is divisible by 2      | __q__ <br> x is even             | __p__ ⇒ __q__  | __q__ ⇒ __p__   | __p__ ⟺ __q__    |
+     |-----------|---------------|-------------------|-------------------|-------------------|
+     | false     | false         | true              | true              |true               |
+     | false     | true          | true              | false             |false               |
+     | true      | false         | false             | true              |false              |
+     | true      | true          | true              | true              |true                |
 
 
   
