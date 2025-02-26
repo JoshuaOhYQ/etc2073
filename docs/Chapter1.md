@@ -169,14 +169,14 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
      - Examples:  
        - `Person(Richard)`: Richard is a person.  
        - `King(John)`: John is a king.  
-       - `Crown(K)`: K is a crown.
-         
+       - `Crown(K)`: K is a crown.  
+
   2. **<span style="color:red;">Binary Relations (Arity = 2)</span>**  
      - Takes two arguments (relationships between 2 objects).  
      - Examples:  
        - `Brother(Richard, John)`: Richard is the brother of John.  
-       - `OnHead(K, John)`: Object K is on John's head.
-         
+       - `OnHead(K, John)`: Object K is on John's head.  
+
   3. **<span style="color:red;">Higher-Arity Relations</span>**  
      - Predicates can also have higher arities.  
      - Example: Ternary relations with arity 3.  
