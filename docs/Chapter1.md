@@ -192,6 +192,10 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
 | King     | 1      | King(John)        |
 | Crown    | 1      | Crown(K)          |
 
-
+#### Function symbols 
++ Represents a mapping from one or more input objects (arguments) to an output object.
++ Unlike predicates (which evaluate to true or false), functions will return objects as their output.
++ In mathematical sense, a function maps an object to another object.
++ Example:<br>`LeftLeg(Richard)` = Richard's left leg<br>⟨Richard⟩ LeftLeg ⟶ Richard’s left leg<br>Function symbol LeftLeg is used to map a person (input) to their left leg (output)<br><br>Basically,<br>Richard: __input(argument)__ to the function <br> LeftLeg: __function symbol__ <br>Richard's left leg: __output(result)__ of the function
   
 
