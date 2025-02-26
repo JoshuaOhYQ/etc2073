@@ -23,6 +23,7 @@
 | Probability theory  | Facts                           | Degree of belief ∈ [0, 1]  |
 | Fuzzy logic         | Facts with degree of truth ∈ [0, 1] | Known interval value       |
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Propositional logic
 
@@ -124,17 +125,17 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
   | true      | false         | false             | true              |false              |
   | true      | true          | true              | true              |true                |
 
-
-  
-
-
-
-
-
-
-   
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+### First Order Logic (FOL) 
 
++ It is also called __predicate logic__ due to the addition of predicate variables
++ FOL adds _3_ more concepts to the syntax on top of those in __propositional logic__, there are: <br>
+  1. __<span style="color:red;"> Predicate Variables</span>__
+  2. __<span style="color:red;"> Universal Quantifier ∀</span>__
+  3. __<span style="color:red;"> Existential Quantifier ∃</span>__
++ There are _3_ types of symbols in FOL:
+  1. __<span style="color:red;"> Constant Symbols for Objects</span>__ (represent specific, fixed objects in the dommain such as names or fixed objects in the domain that do not change)
+  2. __<span style="color:red;"> Predicate Symbols for Relations</span>__ (represent relations or properties that can be __true or false__ about objects in the domain & it also help describe the characteristics of objects or define relationships between them)
+  3. __<span style="color:red;"> Function Symbols for Functions</span>__ (represent mappings from one or more objects to another object, it can take canstants, variables or other functions as arguments and functions __return a specific object__, unlike predicates which return true or false values)
 
