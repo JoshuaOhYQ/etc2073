@@ -227,4 +227,12 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
 
   2. `∀x, y Brother(x, y) ⇒ Person(x) ∧ Person(y)`  
      - **Translation**: For all `x` and `y`, if `x` is the brother of `y`, then `x` is a person and `y` is a person.
+     
+#### Existential quantifier, ∃
++ It means __there exists__ or __for some__.
++ There exists at least one member of the domain for which the statement that follows is true.
++ It is used to make statements about the existence of at least one element in the domain that satisfies a given condition.
++ Typically written as ∃x, where x is a variable. (expression after ∃x only holds true for some of x)
++ **Examples**: <br> `∃x Crown(x) ∧ OnHead(x, John)` <br> **Translation**: There exists an `x` such that `x` is a crown and x is on John's head .
+  
 
