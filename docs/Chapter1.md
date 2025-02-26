@@ -181,7 +181,6 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
      - Predicates can also have higher arities.  
      - Example: Ternary relations with arity 3.  
        - `Between(x, y, z)`: Object y is between objects x and z.
-
 + **Examples (from previous image):**
 
 | Symbol   | Arity | Example           |
