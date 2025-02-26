@@ -129,15 +129,15 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
 
 ### First Order Logic (FOL) 
 
-+ It is also called __predicate logic__ due to the addition of predicate variables
-+ FOL adds _3_ more concepts to the syntax on top of those in __propositional logic__, there are: <br>
-  a. __<span style="color:red;"> Predicate Variables</span>__
-  b. __<span style="color:red;"> Universal Quantifier ∀</span>__
-  c. __<span style="color:red;"> Existential Quantifier ∃</span>__
-+ There are _3_ types of symbols in FOL:
-  a. __<span style="color:red;"> Constant Symbols for Objects</span>__ (represent specific, fixed objects in the dommain such as names or fixed objects in the domain that do not change)
-  b. __<span style="color:red;"> Predicate Symbols for Relations</span>__ (represent relations or properties that can be __true or false__ about objects in the domain & it also help describe the characteristics of objects or define relationships between them)
-  c. __<span style="color:red;"> Function Symbols for Functions</span>__ (represent mappings from one or more objects to another object, it can take canstants, variables or other functions as arguments and functions __return a specific object__, unlike predicates which return true or false values)
+- It is also called **predicate logic** due to the addition of predicate variables.
+- FOL adds **3** more concepts to the syntax on top of those in **propositional logic**, there are:  
+  a. **<span style="color:red;">Predicate Variables</span>**  
+  b. **<span style="color:red;">Universal Quantifier ∀</span>**  
+  c. **<span style="color:red;">Existential Quantifier ∃</span>**  
+- There are **3** types of symbols in FOL:  
+  a. **<span style="color:red;">Constant Symbols for Objects</span>** (represent specific, fixed objects in the domain such as names or fixed objects in the domain that do not change).  
+  b. **<span style="color:red;">Predicate Symbols for Relations</span>** (represent relations or properties that can be **true or false** about objects in the domain & they also help describe the characteristics of objects or define relationships between them).  
+  c. **<span style="color:red;">Function Symbols for Functions</span>** (represent mappings from one or more objects to another object; they can take constants, variables, or other functions as arguments and functions **return a specific object**, unlike predicates which return true or false values).
 + Example of First Order Logic (FOL):<br>
   <div align="center">
   <img src="https://raw.githubusercontent.com/JoshuaOhYQ/etc2073/935fa3309d1d28db5159194c0b977558bb5a50b7/FOL.png" alt="FOL">
