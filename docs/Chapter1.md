@@ -171,16 +171,17 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
        - `King(John)`: John is a king.  
        - `Crown(K)`: K is a crown.  
 
-  b. **Binary Relations (Arity = 2)**  
+   b. **Binary Relations (Arity = 2)**  
      - Takes two arguments (relationships between 2 objects).  
      - Examples:  
        - `Brother(Richard, John)`: Richard is the brother of John.  
        - `OnHead(K, John)`: Object K is on John's head.  
 
-  c. **Higher-Arity Relations**  
+   c. **Higher-Arity Relations**  
      - Predicates can also have higher arities.  
      - Example: Ternary relations with arity 3.  
        - `Between(x, y, z)`: Object y is between objects x and z.
+       
 + **Examples (from previous image):**
 
 | Symbol   | Arity | Example           |
