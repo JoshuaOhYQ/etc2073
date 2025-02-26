@@ -164,20 +164,20 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
 + When we apply arguments to a predicate, it forms a predicate expression, for instance Brother(Richard, John)
 + Predicate expression can be evaluated as either true or false in a given context, for instance Brother(Richard, John) will return true as the statement based on the image above is true.
 - **Arity of a predicate** helps determine how many objects are involved in the property or relationship it describes:  
-  a. **<span style="color:red;">Unary Relations (Arity = 1)</span>**  
+  a. **Unary Relations (Arity = 1)**  
      - Takes one argument (property of a single object).  
      - Examples:  
        - `Person(Richard)`: Richard is a person.  
        - `King(John)`: John is a king.  
        - `Crown(K)`: K is a crown.  
 
-  b. **<span style="color:red;">Binary Relations (Arity = 2)</span>**  
+  b. **Binary Relations (Arity = 2)**  
      - Takes two arguments (relationships between 2 objects).  
      - Examples:  
        - `Brother(Richard, John)`: Richard is the brother of John.  
        - `OnHead(K, John)`: Object K is on John's head.  
 
-  c. **<span style="color:red;">Higher-Arity Relations</span>**  
+  c. **Higher-Arity Relations**  
      - Predicates can also have higher arities.  
      - Example: Ternary relations with arity 3.  
        - `Between(x, y, z)`: Object y is between objects x and z.
