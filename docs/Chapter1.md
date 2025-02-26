@@ -155,13 +155,13 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
   c. **<span style="color:red;">Higher-Arity Relations</span>**<br>Predicates can also have higher arities <br>Example: ternary relations with arity 3<br>Between(x, y, z): object y is in between objects x and z
 
 + Examples (from previous image):
-  | Symbol   | Arity | Example           |
-  |----------|--------|-------------------|
-  | Brother  | 2      | Brother(Richard, John) |
-  | OnHead   | 2      | OnHead(K, John)   |
-  | Person   | 1      | Person(Richard)   |
-  | King     | 1      | King(John)        |
-  | Crown    | 1      | Crown(K)          |
+| Symbol   | Arity | Example           |
+|----------|--------|-------------------|
+| Brother  | 2      | Brother(Richard, John) |
+| OnHead   | 2      | OnHead(K, John)   |
+| Person   | 1      | Person(Richard)   |
+| King     | 1      | King(John)        |
+| Crown    | 1      | Crown(K)          |
 
 
   
