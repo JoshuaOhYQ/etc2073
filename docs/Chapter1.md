@@ -141,10 +141,26 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
 + Example of First Order Logic (FOL):<br>
   <div align="center">
   <img src="https://raw.githubusercontent.com/JoshuaOhYQ/etc2073/935fa3309d1d28db5159194c0b977558bb5a50b7/FOL.png" alt="FOL">
-</div> <br>What are the Constant symbols, Predicate symbols and Function symbols from the image above?<br><br>  __<span style="color:red;"> Constant Symbols:</span>__ <br>Richard and John (represents 2 specific individuals)<br>K (represents the crown as a specific object)<br><br> __<span style="color:red;"> Predicate Symbols:</span>__<br>Person(R) -> Richard is a person. (TRUE) <br>Person(J) -> John is a person. (TRUE)<br>King(J) -> John is a king. (TRUE)<br>Brother(R,J) -> Richard is John's brother. (TRUE)<br>OnHead(K, J) -> The crown (K) is on John's head. (TRUE)<br>Crown(K) -> K is a crown. (TRUE)<br><br> __<span style="color:red;"> Function Symbols:</span>__<br>LeftLeg(R) -> refers to Richard's left leg<br>LeftLeg(J) -> refers to John's left leg.
+</div> <br>What are the Constant symbols, Predicate symbols, and Function symbols from the image above?<br><br>
+
+__<span style="color:red;"> Constant Symbols:</span>__ <br>
+- **Richard** and **John** (represents 2 specific individuals).  
+- **K** (represents the crown as a specific object).  
+
+__<span style="color:red;"> Predicate Symbols:</span>__<br>
+- `Person(R)` -> Richard is a person. <span style="color:green;">**(TRUE)**</span>  
+- `Person(J)` -> John is a person. <span style="color:green;">**(TRUE)**</span>  
+- `King(J)` -> John is a king. <span style="color:green;">**(TRUE)**</span>  
+- `Brother(R,J)` -> Richard is John's brother. <span style="color:green;">**(TRUE)**</span>  
+- `OnHead(K, J)` -> The crown (K) is on John's head. <span style="color:green;">**(TRUE)**</span>  
+- `Crown(K)` -> K is a crown. <span style="color:green;">**(TRUE)**</span>  
+
+__<span style="color:red;"> Function Symbols:</span>__<br>
+- `LeftLeg(R)` -> refers to Richard's left leg.  
+- `LeftLeg(J)` -> refers to John's left leg.  
 
 #### Predicate symbols 
-+ Predicate symbol represents a porperty or relation, for instance from the image above, brother, person, king.
++ Predicate symbol represents a property or relation, for instance from the image above, brother, person, king.
 + When we apply arguments to a predicate, it forms a predicate expression, for instance Brother(Richard, John)
 + Predicate expression can be evaluated as either true or false in a given context, for instance Brother(Richard, John) will return true as the statement based on the image above is true.
 - **Arity of a predicate** helps determine how many objects are involved in the property or relationship it describes:  
