@@ -92,6 +92,42 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
   | True  | False       | False |
   | True  | True        | True  |
 
+#### Biconditional:
++ Let say, <br> __p__ ⟺ __q__<br> __p__ if and only if __q__ (is true)
++ So, if __p__ is _TRUE_, then __q__ is _TRUE_ ; __q__ is _TRUE_, then __p__ is _TRUE_
++ Basically, __p__ ⟺ __q__ is true only when both __p__ and __q__ have the same truth value (__BOTH__ _True_ or __BOTH__ _False_):<br>
+
+    | __p__ | __q__ | __p__ ⇒ __q__  | __q__ ⇒ __p__   | __p__ ⟺ __q__    |
+  |-----------|---------------|-------------------|-------------------|-------------------|
+  | false     | false         | true              | true              |true               |
+  | false     | true          | true              | false             |false               |
+  | true      | false         | false             | true              |false              |
+  | true      | true          | true              | true              |true                |
+
++ So, how can we prove that the statement __p__ ⟺ __q__ is correct or wrong?<br>
+  <u>We can show that __p__ and __q__ are logically equivalent (p implies q and q implies p), if both implications hold then __p__ ⟺ __q__ is correct, otherwise it is wrong</u>
++ Example 1:<br>
+
+  | __p__ <br> it rains         | __q__ <br> ground is wet             | __p__ ⇒ __q__ <br> if it rains<br> then ground is wet            | __q__ ⇒ __p__ <br> if ground is wet<br> then it rains            | __p__ ⟺ __q__    |
+  |-----------|---------------|-------------------|-------------------|-------------------|
+  | false     | false         | true              | true              |true               |
+  | false     | true          | true              | false             |false               |
+  | true      | false         | false             | true              |false              |
+  | true      | true          | true              | true              |true                |
+
++ Example 2:<br>
+
+  | __p__ <br> x is divisible by 2      | __q__ <br> x is even             | __p__ ⇒ __q__  | __q__ ⇒ __p__   | __p__ ⟺ __q__    |
+  |-----------|---------------|-------------------|-------------------|-------------------|
+  | false     | false         | true              | true              |true               |
+  | false     | true          | true              | false             |false               |
+  | true      | false         | false             | true              |false              |
+  | true      | true          | true              | true              |true                |
+
+
+  
+
+
 
 
 
