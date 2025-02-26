@@ -138,4 +138,10 @@ Derivative connective such as __XOR(Exclusive OR)__ and __NOR(Negation of OR)__ 
   1. __<span style="color:red;"> Constant Symbols for Objects</span>__ (represent specific, fixed objects in the dommain such as names or fixed objects in the domain that do not change)
   2. __<span style="color:red;"> Predicate Symbols for Relations</span>__ (represent relations or properties that can be __true or false__ about objects in the domain & it also help describe the characteristics of objects or define relationships between them)
   3. __<span style="color:red;"> Function Symbols for Functions</span>__ (represent mappings from one or more objects to another object, it can take canstants, variables or other functions as arguments and functions __return a specific object__, unlike predicates which return true or false values)
++ Example of First Order Logic (FOL):<br>
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/JoshuaOhYQ/etc2073/935fa3309d1d28db5159194c0b977558bb5a50b7/FOL.png" alt="FOL">
+</div> <br>What are the Constant symbols, Predicate symbols and Function symbols from the image above?<br><br>  __<span style="color:red;"> Constant Symbols:</span>__ <br>Richard and John (represents 2 specific individuals), K (represents the crown as a specific object)<br><br> __<span style="color:red;"> Predicate Symbols:</span>__<br>Person(R) -> Richard is a person. (TRUE) <br>Person(J) -> John is a person. (TRUE)<br>King(J) -> John is a king. (TRUE)<br>Brother(R,J) -> Richard is John's brother. (TRUE)<br>OnHead(K, J) -> The crown (K) is on John's head. (TRUE)<br>Crown(K) -> K is a crown. (TRUE)<br><br> __<span style="color:red;"> Function Symbols:</span>__<br>LeftLeg(R) -> refers to Richard's left leg<br>LeftLeg(J) -> refers to John's left leg.
+
+  
 
