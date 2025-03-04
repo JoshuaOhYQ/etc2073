@@ -390,17 +390,16 @@ For this case we will consider **parameters in the environment** for conflict re
 1. **Identify the hypothesis or goal**  
 
 2. **Check if there is a rule that establishes the goal**  
-   - (a) If yes, then proceed  
-   - (b) If no, then check if the goal is a fact in the database  
+   (a) If yes, then proceed  
+   (b) If no, then check if the goal is a fact in the database  
 
 3. **Check if any rule is active**  
-   - (a) If yes, add sub-goal to the database  
-   - (b) If no, derive a new sub-goal from the rule's antecedent  
+   (a) If yes, add sub-goal to the database  
+   (b) If no, derive a new sub-goal from the rule's antecedent  
 
 4. **Check for any preceding sub-goal**  
-   - (a) If yes, then use the preceding sub-goal as the new sub-goal  
-     - (System takes the preceding sub-goal and treats it as the new hypothesis/goal to be proven and repeats the process)  
-   - (b) If no, then the goal is proven 
+   (a) If yes, then use the preceding sub-goal as the new sub-goal (System takes the preceding sub-goal and treats it as the new hypothesis/goal to be proven and repeats the process)  
+   (b) If no, then the goal is proven 
 
 + Sub-goal and How it works !?!?!:
 
