@@ -292,7 +292,7 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
   ### Forward Chaining
   + Data-driven reasoning
   + known data/facts → rules → conclusion
-  + It starts with the available facts and uses the rules in the knowledge base to derive new facts or conclusion
+  + Basically, the system begins with the known facts in the working memory, it then apply the rules whose __IF__ conditions match the known facts, when a rule fires, its __THEN__ conclusion is added to the working memory as a new fact. This process repeats until no more rule can be applied or a specific goal has been reached.
   + 
     
        
