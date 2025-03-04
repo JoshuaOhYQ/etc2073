@@ -278,7 +278,7 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
   4. `∃x P ≡ ¬∀x ¬P`  
      - **Translation**: There exists an `x` such that `P` is true is equivalent to it is not the case that for all `x`, `P` is not true.
     
-  ## Expert Systems
+## Expert Systems
   + Programs that mimic decision-making and problem solving thought processes of human experts
   + It uses production rules (IF-THEN) as knowledge representation
   + **Structure of expert system**:<br>
