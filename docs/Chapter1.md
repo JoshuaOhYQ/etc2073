@@ -322,5 +322,49 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
 6. **Any rule in this cycle was activated?**  
    a) If at least one rule was activated, repeat the process from the first rule.  
    b) If no rules were activated, the algorithm ends.
-  
+
++ Example (Please click this link): 
+
+### Conflict Resolution  
++ When multiple rules can be fired at the same time, a conflict resolution strategy determines which rule to execute first.  
++ Priorities are set based on:  
+
+  **a) Sequence of the rule list**  
+  - Assumes rules are arranged according to importance.  
+  - Rules are prioritized based on their order in the list.  
+
+  **b) Specificity of the rule**  
+  - More specific rules (rules with more antecedents or conditions) are given higher priority.  
+
+  **c) Parameters in the environment**  
+  - Context or external conditions influence which rule is prioritized.  
+  - Ensures the system adapts to real-life situations.  
+
+  **d) Recency of the rule being added**  
+  - Recently used rules are considered more significant as they have proven valuable.  
+  - These rules are given priority for faster access.  
+
+  **e) Recency addition of the rule**  
+  - New rules are prioritized.  
+
+  **f) Redundancy**  
+  - Ignore rules that have already been fired.  
+
+---
+
+**Example: Traffic Light Rules**  
+Here’s an example of rules and how conflicts might arise:
+
+```plaintext
+Rule 1    IF    traffic_light is green
+    THEN    action is go
+
+Rule 2    IF    traffic_light is amber
+    THEN    action is slow-down
+
+Rule 3    IF    traffic_light is amber
+    THEN    action is speed_up
+
+Rule 4    IF    traffic_light is red
+    THEN    action is stop
 
