@@ -281,7 +281,14 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
   ## Expert Systems
   + Programs that mimic decision-making and problem solving thought processes of human experts
   + It uses production rules (IF-THEN) as knowledge representation
-  + 
+  + **Structure of expert system**:<br>
+  <div align="center">
+    <img src="https://raw.githubusercontent.com/JoshuaOhYQ/etc2073/da5c9daa11eb89a40525006353b6da337bfd0070/Structure.png" alt="Structure">
+  </div> <br><br>
+  
+  + Inference methods are methods used by the inference engine to reason through the knowledge base and derive conclusion
+  +
+  
     
        
   
