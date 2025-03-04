@@ -248,6 +248,37 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
       
   3. `∀y∀x Loves(x, y)`  
      - **Translation**: There exists a `y` such that for all `x`, `x` loves `y`, basically there is someone who is loved by everyone.
+
+#### De Morgan's Laws
++ Fundamental rules in logic that describe the relationship between conjuntion (∧) and disjunction (∨) , AND universal (∀) and existential (∃) quantifier under negation (¬).
++ Allow us to change from ∧ to ∨, vice versa AND from ∀ to ∃, vice versa. 
++ **∧ and ∨** :
+   1. `¬(P ∧ Q) ≡ ¬P ∨ ¬Q`
+     - **Translation**: Negation of (`P` and `Q`) is equivalent to not `P` or not `Q`
+
+  2. `¬(P ∨ Q) ≡ ¬P ∧ ¬Q`  
+     - **Translation**: Negation of (`P` or `Q`) is equivalent to not `P` and not `Q`
+      
+  3. `P ∨ Q ≡ ¬(¬P ∧ ¬Q)`  
+     - **Translation**: `P` or `Q` is equivalent to not (not `P` and not `Q`) 
+    
+  4. `P ∧ Q ≡ ¬(¬P ∨ ¬Q)`  
+     - **Translation**: `P` and `Q` is equivalent to not (not `P` or not `Q`)
+           
++ **∀ and ∃** :
+   1. `∀x ¬P ≡ ¬∃x P`
+     - **Translation**: For all `x`, `P` is not true is equivalent to it is not the case that there exists an `x` for which P is true
+
+  2. `¬∀x P ≡ ∃x ¬P`  
+     - **Translation**: It is not the case that for all `x`, `P` is true is equivalent to there exists an `x` for which `P` is not true
+      
+  3. `∀x P ≡ ¬∃x ¬P`  
+     - **Translation**: For all `x`, `P` is true is equivalent to there does not exist an `x` for which `P` is false."
+    
+  4. `∃x P ≡ ¬∀x ¬P`  
+     - **Translation**: There exists an `x` such that `P` is true is equivalent to it is not the case that for all `x`, `P` is not true.
+    
+  
     
        
   
