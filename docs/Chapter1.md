@@ -369,4 +369,4 @@ Rule 4    IF    traffic_light is red
     THEN    action is stop 
 ```
 
-For this case we will consider: **parameters in the environment** for conflict resolution
+For this case we will consider **parameters in the environment** for conflict resolution ❗❗❗
