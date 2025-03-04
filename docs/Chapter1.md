@@ -379,5 +379,34 @@ For this case we will consider **parameters in the environment** for conflict re
   + Goal-driven reasoning
   + goal/hypothesis → rules → data to support → rules → conclusion
   + Basically, the system starts with a goal, then it looks for rules whose __THEN__ (conclusion) match the goal. It then checks whether the __IF__ conditions of those rules are satisfied by the facts in the working memory. If the conditions are not satisfied, the system treats them as sub-goals and repeats the process.
-  + This method is useful when the goal is specific, and the system needs to determine whether it is supported by the avalaible facts or when the system needs to answer a specific question or hypothesis. Basically, veryfying a specific goal or hypothesis. 
+  + This method is useful when the goal is specific, and the system needs to determine whether it is supported by the avalaible facts or when the system needs to answer a specific question or hypothesis. Basically, veryfying a specific goal or hypothesis.
+  + **Rule Interpreter**:<br>
+  <div align="center">
+    <img src="https://github.com/JoshuaOhYQ/etc2073/blob/0b73fd44b4842e8f67489f00fa84ac59f54021a7/Backward%20Chaining%20formula.png" alt="Backward Chaining Formula">
+  </div> <br><br>
+
+
+**How the Algorithm Works:**
+
+1. **Identify the hypothesis or goal**  
+
+2. **Check if there is a rule that establishes the goal**  
+   a) If yes, then proceed  
+   b) If no, then check if the goal is a fact in the database
+
+3. **Check if any rule is active**  
+   a) If yes, add sub-goal to the database
+   b) If no, derive a new sub-goal from rule's antecedent
+   
+4. **Check for any preceding sub-goal**  
+   a) If yes, then use the preceding sub-goal as the new sub-goal (system takes the preceeding sub-goal and treats it as the new hypothesis/goal to be proven and repeat 
+   b) If no, then goal is proven 
+
+6. **End of rule list?**  
+   a) If all rules have been checked, proceed to the next step.  
+   b) If there are more rules left, continue checking them.
+
+7. **Any rule in this cycle was activated?**  
+   a) If at least one rule was activated, repeat the process from the first rule.  
+   b) If no rules were activated, the algorithm ends.
 
