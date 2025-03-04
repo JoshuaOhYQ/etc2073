@@ -366,5 +366,7 @@ Rule 3    IF    traffic_light is amber
     THEN    action is speed_up
 
 Rule 4    IF    traffic_light is red
-    THEN    action is stop
+    THEN    action is stop 
+```
 
+For this case we will consider: **parameters in the environment** for conflict resolution
