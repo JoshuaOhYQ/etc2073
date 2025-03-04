@@ -382,9 +382,8 @@ For this case we will consider **parameters in the environment** for conflict re
   + This method is useful when the goal is specific, and the system needs to determine whether it is supported by the avalaible facts or when the system needs to answer a specific question or hypothesis. Basically, veryfying a specific goal or hypothesis.
   + **Rule Interpreter**:<br>
   <div align="center">
-    <img src="https://github.com/JoshuaOhYQ/etc2073/blob/0b73fd44b4842e8f67489f00fa84ac59f54021a7/Backward%20Chaining%20formula.png" alt="Backward Chaining Formula">
+    <img src="https://raw.githubusercontent.com/JoshuaOhYQ/etc2073/0b73fd44b4842e8f67489f00fa84ac59f54021a7/Backward%20Chaining%20formula.png" alt="Backward Chaining Formula">
   </div> <br><br>
-
 
 **How the Algorithm Works:**
 
