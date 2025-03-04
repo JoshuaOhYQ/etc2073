@@ -372,3 +372,12 @@ Rule 4    IF    traffic_light is red
 ```
 
 For this case we will consider **parameters in the environment** for conflict resolution ❗❗❗
+
+---
+
+### Backward Chaining
+  + Goal-driven reasoning
+  + goal/ hypothesis → rules → data to support → rules → conclusion
+  + Basically, the system starts with a goal, then it looks for rules whose __THEN__ (conclusion) match the goal. It then checks whether the __IF__ conditions of those rules are satisfied by the facts in the working memory. If the conditions are not satisfied, the system treats them as sub-goals and repeats the process.
+  + This method is useful when the goal is specific, and the system needs to determine whether it is supported by the avalaible facts or when the system needs to answer a specific question or hypothesis. Basically, veryfying a specific goal or hypothesis. 
+
