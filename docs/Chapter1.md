@@ -325,7 +325,7 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
    a) If at least one rule was activated, repeat the process from the first rule.  
    b) If no rules were activated, the algorithm ends.
 
-+ Example (Please click this link): 
+Example (Please click this link): 
 
 ### Conflict Resolution  
 + When multiple rules can be fired at the same time, a conflict resolution strategy determines which rule to execute first.  
@@ -412,5 +412,6 @@ Now the new sub-goal is Y
 
 system will continue backward chaining to prove Y using another rule
 ```
-+ Example (Please click this link):
+
+Example (Please click this link):
 
