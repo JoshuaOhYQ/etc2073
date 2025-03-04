@@ -286,9 +286,14 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
     <img src="https://raw.githubusercontent.com/JoshuaOhYQ/etc2073/da5c9daa11eb89a40525006353b6da337bfd0070/Structure.png" alt="Structure">
   </div> <br><br>
   
-  + Inference methods are methods used by the inference engine to reason through the knowledge base and derive conclusion
-  +
-  
+  + __Inference methods__ are methods used by the inference engine to reason through the knowledge base and derive conclusion
+  + The two __inference methods__ are __forward chaining__ and __backward chaining__
+
+  ### Forward Chaining
+  + Data-driven reasoning
+  + known data/facts → rules → conclusion
+  + It starts with the available facts and uses the rules in the knowledge base to derive new facts or conclusion
+  + 
     
        
   
