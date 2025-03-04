@@ -305,8 +305,8 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
    The algorithm begins by checking the first rule in the rule list.
 
 2. **Is this rule active?**  
-   - If the rule is **"Active"**, move to the next step.  
-   - If the rule is **not "Active"**, proceed to the next rule.
+   a) If the rule is **"Active"**, move to the next step.  
+   b) If the rule is **not "Active"**, proceed to the next rule.
 
 3. **Fire the rule**  
    If the rule is active, it is fired (executed).
@@ -315,11 +315,11 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
    The fired rule is removed from the list to avoid reprocessing.
 
 5. **End of rule list?**  
-   - If all rules have been checked, proceed to the next step.  
-   - If there are more rules left, continue checking them.
+   a) If all rules have been checked, proceed to the next step.  
+   b) If there are more rules left, continue checking them.
 
 6. **Any rule in this cycle was activated?**  
-   - If at least one rule was activated, repeat the process from the first rule.  
-   - If no rules were activated, the algorithm ends.
+   a) If at least one rule was activated, repeat the process from the first rule.  
+   b) If no rules were activated, the algorithm ends.
   
 
