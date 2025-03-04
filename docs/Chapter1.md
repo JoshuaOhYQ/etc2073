@@ -293,8 +293,33 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
   + Data-driven reasoning
   + known data/facts → rules → conclusion
   + Basically, the system begins with the known facts in the working memory, it then apply the rules whose __IF__ conditions match the known facts, when a rule fires, its __THEN__ conclusion is added to the working memory as a new fact. This process repeats until no more rule can be applied or a specific goal has been reached.
-  + 
-    
-       
+  + This method is useful when the goal is to explore all possible conclusions from the avalaible data or to generate a wide range of outcomes (explore all possible conclusions)
++ **Rule Interpreter**:<br>
+  <div align="center">
+    <img src="https://github.com/JoshuaOhYQ/etc2073/blob/bb4006ade3e69d7ee87bf8af546f625cfd213c4f/Forward%20Chaining%20formula.png" alt="Forward Chaining Formula">
+  </div> <br><br>
+
+**How the Algorithm Works:**
+
+1. **Start from the first rule**  
+   The algorithm begins by checking the first rule in the rule list.
+
+2. **Is this rule active?**  
+   - If the rule is **"Active"**, move to the next step.  
+   - If the rule is **not "Active"**, proceed to the next rule.
+
+3. **Fire the rule**  
+   If the rule is active, it is fired (executed).
+
+4. **Remove the rule from the list**  
+   The fired rule is removed from the list to avoid reprocessing.
+
+5. **End of rule list?**  
+   - If all rules have been checked, proceed to the next step.  
+   - If there are more rules left, continue checking them.
+
+6. **Any rule in this cycle was activated?**  
+   - If at least one rule was activated, repeat the process from the first rule.  
+   - If no rules were activated, the algorithm ends.
   
 
