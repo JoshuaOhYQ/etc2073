@@ -296,8 +296,9 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
   + This method is useful when the goal is to explore all possible conclusions from the avalaible data or to generate a wide range of outcomes (explore all possible conclusions)
 + **Rule Interpreter**:<br>
   <div align="center">
-    <img src="https://github.com/JoshuaOhYQ/etc2073/blob/bb4006ade3e69d7ee87bf8af546f625cfd213c4f/Forward%20Chaining%20formula.png" alt="Forward Chaining Formula">
+    <img src="https://raw.githubusercontent.com/JoshuaOhYQ/etc2073/bb4006ade3e69d7ee87bf8af546f625cfd213c4f/Forward%20Chaining%20formula.png" alt="Forward Chaining Formula">
   </div> <br><br>
+
 
 **How the Algorithm Works:**
 
