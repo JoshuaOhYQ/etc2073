@@ -234,5 +234,21 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
 + It is used to make statements about the existence of at least one element in the domain that satisfies a given condition.
 + Typically written as ∃x, where x is a variable (expression after ∃x only holds true for some of x)
 + **Examples**: <br> `∃x Crown(x) ∧ OnHead(x, John)` <br> **Translation**: There exists an `x` such that `x` is a crown and x is on John's head .
+
+#### Nested quantifier
++ Can involve the same type of quantifier or different types.
++ The order of quantifiers is crucial as it affects the meaning of the statement 
++ **Examples**:  
+  1. `∀x∀y Brother(x, y) ⇒ Sibling(x, y)`
+     `∀x, y Brother(x, y) ⇒ Sibling(x, y)` 
+     - **Translation**: For all `x` and `y`, if `x` is the brother of `y`, then `x` is a sibling of `y`, basically brothers are siblings. 
+
+  2. `∀x∀y Loves(x, y)`  
+     - **Translation**: For all `x`, there exists a `y` such that `x` loves `y`, basically everybody loves somebody. 
+      
+  3. `∀y∀x Loves(x, y)`  
+     - **Translation**: There exists a `y` such that for all `x`, `x` loves `y`, basically there is someone who is loved by everyone.
+    
+       
   
 
