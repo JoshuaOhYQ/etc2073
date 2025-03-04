@@ -402,11 +402,5 @@ For this case we will consider **parameters in the environment** for conflict re
    a) If yes, then use the preceding sub-goal as the new sub-goal (system takes the preceeding sub-goal and treats it as the new hypothesis/goal to be proven and repeat 
    b) If no, then goal is proven 
 
-6. **End of rule list?**  
-   a) If all rules have been checked, proceed to the next step.  
-   b) If there are more rules left, continue checking them.
 
-7. **Any rule in this cycle was activated?**  
-   a) If at least one rule was activated, repeat the process from the first rule.  
-   b) If no rules were activated, the algorithm ends.
 
