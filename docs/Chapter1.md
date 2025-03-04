@@ -289,7 +289,7 @@ __<span style="color:red;"> Function Symbols:</span>__<br>
   + __Inference methods__ are methods used by the inference engine to reason through the knowledge base and derive conclusion
   + The two __inference methods__ are __forward chaining__ and __backward chaining__
 
-  ### Forward Chaining
+### Forward Chaining
   + Data-driven reasoning
   + known data/facts → rules → conclusion
   + Basically, the system begins with the known facts in the working memory, it then apply the rules whose __IF__ conditions match the known facts, when a rule fires, its __THEN__ conclusion is added to the working memory as a new fact. This process repeats until no more rule can be applied or a specific goal has been reached.
