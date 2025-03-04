@@ -401,6 +401,7 @@ For this case we will consider **parameters in the environment** for conflict re
    a) If yes, then use the preceding sub-goal as the new sub-goal (System takes the preceding sub-goal and treats it as the new hypothesis/goal to be proven and repeats the process)  
    b) If no, then the goal is proven 
 
+
 **Sub-goal and How it works !?!?!:**
 
 ```plaintext
