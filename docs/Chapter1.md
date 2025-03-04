@@ -402,5 +402,16 @@ For this case we will consider **parameters in the environment** for conflict re
    a) If yes, then use the preceding sub-goal as the new sub-goal (system takes the preceeding sub-goal and treats it as the new hypothesis/goal to be proven and repeat 
    b) If no, then goal is proven 
 
++ Sub-goal and How it works !?!?!:
 
+```plaintext
+Goal: Can I conclude Z? 
+
+Rule: Y ∧ D → Z (to prove Z, I must prove Y and D)
+
+Now the new sub-goal is Y 
+
+system will continue backward chaining to prove Y using another rule
+```
++ Example (Please click this link):
 
