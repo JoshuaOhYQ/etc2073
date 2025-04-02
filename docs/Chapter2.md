@@ -48,6 +48,20 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
 1.  :man_raising_hand: I'm an annotation!
 2.  :woman_raising_hand: I'm an annotation as well!
 
+=== "Unordered list"
+
+    * Sed sagittis eleifend rutrum
+    * Donec vitae suscipit est
+    * Nulla tempor lobortis orci
+
+=== "Ordered list"
+
+    1. Sed sagittis eleifend rutrum
+    2. Donec vitae suscipit est
+    3. Nulla tempor lobortis orci
+
+
+
 !!! example
 
     === "Unordered List"
