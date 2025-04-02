@@ -130,3 +130,14 @@ graph LR
 
 ![Image title](https://raw.githubusercontent.com/JoshuaOhYQ/etc2073/de348553eab04b04f6f8f11fdfbed575e9680b41/Screenshot%202025-02-22%20105839.png){ align=left }
 Hellow word
+
+- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+- [ ] Vestibulum convallis sit amet nisi a tincidunt
+    * [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [ ] Praesent sed risus massa
+- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
+
+
+
+
