@@ -45,7 +45,14 @@ theme:
       example: material/test-tube
       quote: material/format-quote-close
     annotation: material/plus-circle
-
+    
+extra:
+  generator: false  # Removes "Made with Material for MkDocs"
+  social:
+    - icon: fontawesome/brands/github
+      link: https://joshuaohyq.github.io/AI-Python/
+      name: Joshua Oh's GitHub
+      
 extra_css:
   - stylesheets/extra.css
   
