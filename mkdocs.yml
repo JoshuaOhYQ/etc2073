@@ -63,5 +63,5 @@ nav:
   - Fundamentals:
     - "First Order Logic and Expert Systems": Chapter1.md
     - "Fuzzy Logic and Fuzzy Inference Systems": Chapter2.md
-  - Resources:
+  - Python:
     - "References": references.md
