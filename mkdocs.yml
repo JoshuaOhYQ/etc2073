@@ -57,6 +57,8 @@ markdown_extensions:
   - pymdownx.details
   - attr_list
   - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
   
 nav:
   - Home: index.md
