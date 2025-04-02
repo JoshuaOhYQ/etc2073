@@ -1,4 +1,4 @@
-# Chapter 1: First Order Logic and Expert Systems
+# First Order Logic and Expert Systems
 
 ## What is Logic ?!?!
 
