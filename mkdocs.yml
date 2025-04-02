@@ -40,6 +40,7 @@ theme:
       bug: material/bug
       example: material/test-tube
       quote: material/format-quote-close
+    annotation: material/arrow-right-circle
 
 extra_css:
   - stylesheets/extra.css
@@ -56,12 +57,11 @@ markdown_extensions:
   - pymdownx.details
   - attr_list
   - md_in_html
-  - pymdownx.superfences
   
 nav:
   - Home: index.md
   - Fundamentals:
     - "First Order Logic and Expert Systems": Chapter1.md
     - "Fuzzy Logic and Fuzzy Inference Systems": Chapter2.md
-  - Python:
+  - Resources:
     - "References": references.md
