@@ -40,7 +40,7 @@ theme:
       bug: material/bug
       example: material/test-tube
       quote: material/format-quote-close
-    annotation: material/arrow-right-circle
+    annotation: material/plus-circle
 
 extra_css:
   - stylesheets/extra.css
