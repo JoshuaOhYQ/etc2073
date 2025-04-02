@@ -32,5 +32,5 @@ theme:
 nav: 
       - Home: index.md
       - First Order Logic and Expert Systems: Chapter1.md
-      - Fuzzy Logic and Fuzzy Inference Systems: Chapter 2
+      - Fuzzy Logic and Fuzzy Inference Systems: Chapter 2.md
       
