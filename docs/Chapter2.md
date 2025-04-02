@@ -79,3 +79,12 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
         2. Donec vitae suscipit est
         3. Nulla tempor lobortis orci
         ```
+
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
