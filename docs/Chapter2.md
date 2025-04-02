@@ -137,5 +137,7 @@ graph LR
 - [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 
 
-
+$$
+\cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
+$$
 
