@@ -1,5 +1,7 @@
 site_name: Artificial Intelligence (AI) with Python
 site_url: https://mydomain.org/mysite
+site_author: Joshua OhYQ
+copyright: "Copyright &copy; 2025 Joshua Oh"
 
 theme:
   name: material
