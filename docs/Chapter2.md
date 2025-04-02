@@ -24,14 +24,7 @@ Boundary is 180 cm for tall guy. Samuel is 179 cm therefore he is a short guy
 
 !!! note "Note"
     This is a note.
-theme:
-  name: material
-  icon:
-    admonition:
-      note: "material/note-outline"
-      warning: "material/alert-circle"
-      tip: "material/rocket"
-      danger: "material/fire"
+
 
 
 
