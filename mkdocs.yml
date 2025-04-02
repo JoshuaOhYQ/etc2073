@@ -25,6 +25,7 @@ theme:
     - content.code.copy
     - search.suggest
     - search.highlight
+    - content.footnote.tooltips
   
   icon:
     admonition:
@@ -63,6 +64,7 @@ markdown_extensions:
   - md_in_html
   - pymdownx.tabbed:
       alternate_style: true
+  - footnotes
   
 nav:
   - Home: index.md
