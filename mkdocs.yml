@@ -47,7 +47,6 @@ theme:
     annotation: material/plus-circle
     
 extra:
-  generator: false  # Removes "Made with Material for MkDocs"
   social:
     - icon: fontawesome/brands/github
       link: https://joshuaohyq.github.io/AI-Python/
