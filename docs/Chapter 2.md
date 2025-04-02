@@ -1,4 +1,4 @@
-# Chapter 2: Fuzzy Logic and Fuzzy Inference Systems 
+# Fuzzy Logic and Fuzzy Inference Systems 
 ## Fuzzy Logic vs Boolean(Conventional Logic)
 
 ### Boolean or Conventional Logic 
