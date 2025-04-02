@@ -71,6 +71,9 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
   - pymdownx.blocks.caption     
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   
 nav:
   - Home: index.md
