@@ -26,6 +26,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.footnote.tooltips
+    - content.tooltips
   
   icon:
     admonition:
@@ -80,6 +81,9 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.arithmatex:
       generic: true
+  - abbr
+  - attr_list
+  - pymdownx.snippets
   
 nav:
   - Home: index.md
