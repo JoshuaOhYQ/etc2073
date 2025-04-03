@@ -15,22 +15,24 @@ Feel free to explore, learn, and contribute!
 
 ???+ question "Why Python for AI?"
 
-    **Simplicity & Readability**  
-    :fontawesome-solid-check:{ .green } Intuitive syntax that reads like pseudocode  
-    :fontawesome-solid-check:{ .green } Easy to prototype and experiment  
+- [x] **Beginner-friendly syntax**  
+  _Reads like English with minimal boilerplate code_
+  
+- [x] **Comprehensive AI/ML ecosystem**  
+  - [x] NumPy/Pandas for data processing  
+  - [x] Scikit-learn for traditional ML  
+  - [x] TensorFlow/PyTorch for deep learning  
+  
+- [x] **Cross-platform compatibility**  
+  _Runs on Windows, macOS, Linux, and embedded systems_
 
-    **Powerful Ecosystem**  
-    :fontawesome-solid-check:{ .green } 300,000+ packages on PyPI  
-    :fontawesome-solid-check:{ .green } Specialized libraries for every AI task  
+- [ ] **Performance optimization options**  
+  - [x] Numba for GPU acceleration  
+  - [ ] Easy Rust/C++ integration  
+  - [x] Multiprocessing support
 
-    **Community & Support**  
-    :fontawesome-solid-check:{ .green } Largest programming community  
-    :fontawesome-solid-check:{ .green } Excellent documentation  
-
-    **Cross-Platform**  
-    :fontawesome-solid-check:{ .green } Runs anywhere from Raspberry Pi to cloud clusters  
-    :fontawesome-solid-check:{ .green } Interoperates with C/C++/Java  
-
+- [x] **Vibrant community**  
+  _Over 300,000 packages on PyPI and active Q&A forums_
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-code:{ .lg .middle } __Coding with Python__
