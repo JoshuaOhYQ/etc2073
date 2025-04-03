@@ -16,7 +16,7 @@ Feel free to explore, learn, and contribute!
 ## Why Choose Python for AI/ML?
 
 - [x] **Beginner-friendly syntax**  
-  _Reads like English with minimal difficult to understand code_
+  _Reads like English with minimal difficult to understand code_ :material-brain:
   
 - [x] **Comprehensive AI/ML ecosystem**  
   - [x] Numpy/Pandas for data processing  
@@ -24,7 +24,7 @@ Feel free to explore, learn, and contribute!
   - [x] TensorFlow/PyTorch for deep learning  
   
 - [x] **Cross-platform compatibility**  
-  _Runs on Windows, macOS, Linux, and embedded systems_
+  _Runs on Windows, macOS, Linux, and embedded systems_ :fontawesome-brands-instalod:
 
 - [ ] **Performance optimization options**  
   - [x] Numba for GPU acceleration  
