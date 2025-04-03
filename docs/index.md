@@ -19,31 +19,47 @@ Feel free to explore, learn, and contribute!
 
     ---
 
-    Learn Python fundamentals - from variables and loops to functions and OOP. Perfect for beginners starting their programming journey.
+    Master Python fundamentals - syntax, data structures, and OOP concepts. The perfect starting point for beginners.
 
     [:octicons-arrow-right-24: Get Started](https://joshuaohyq.github.io/AI-Python/Chapter1/)
+
+-   :fontawesome-solid-chart-line:{ .lg .middle } __Data Analysis__
+
+    ---
+
+    Explore data manipulation, visualization, and statistical analysis using Pandas, NumPy, and Matplotlib.
+
+    [:octicons-arrow-right-24: Analyze Data](#data-analysis)
 
 -   :fontawesome-solid-diagram-project:{ .lg .middle } __Basic Algorithms__
 
     ---
 
-    Explore essential AI algorithms including search algorithms, FOL, and Fuzzy Logic. Build a strong foundation for AI problem-solving.
+    Core AI algorithms including search, optimization, and logic programming. Essential for problem-solving.
 
     [:octicons-arrow-right-24: Learn Algorithms](https://joshuaohyq.github.io/AI-Python/Chapter1/)
 
--   :fontawesome-solid-robot:{ .lg .middle } __Advanced Machine Learning__
+-   :fontawesome-solid-laptop-code:{ .lg .middle } __Software with Python__
 
     ---
 
-    Dive into neural networks, deep learning, and AI model training. Implement real-world applications using TensorFlow and scikit-learn.
+    Build applications, APIs, and tools using Python frameworks like Flask, Django, and PyQt.
+
+    [:octicons-arrow-right-24: Develop Software](#software-dev)
+
+-   :fontawesome-solid-robot:{ .lg .middle } __Advanced ML__
+
+    ---
+
+    Deep learning, neural networks, and model training with TensorFlow/PyTorch.
 
     [:octicons-arrow-right-24: Explore AI](#advanced-ml)
 
--   :fontawesome-solid-laptop-code:{ .lg .middle } __Personal Projects__
+-   :fontawesome-solid-project-diagram:{ .lg .middle } __Personal Projects__
 
     ---
 
-    My collection of hands-on projects - from data analysis tools to AI-driven applications. Includes code, tutorials, and insights.
+    My implemented solutions - from data pipelines to AI applications with full code walkthroughs.
 
     [:octicons-arrow-right-24: View Projects](#personal-projects)
 
