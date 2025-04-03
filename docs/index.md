@@ -13,13 +13,13 @@ Additionally, I’ve included several hands-on projects developed during my free
 
 Feel free to explore, learn, and contribute!
 
-???+ question "Why Python for AI?"
+## Why Choose Python for AI/ML?
 
 - [x] **Beginner-friendly syntax**  
-  _Reads like English with minimal boilerplate code_
+  _Reads like English with minimal difficult to understand code_
   
 - [x] **Comprehensive AI/ML ecosystem**  
-  - [x] NumPy/Pandas for data processing  
+  - [x] Numpy/Pandas for data processing  
   - [x] Scikit-learn for traditional ML  
   - [x] TensorFlow/PyTorch for deep learning  
   
@@ -33,6 +33,8 @@ Feel free to explore, learn, and contribute!
 
 - [x] **Vibrant community**  
   _Over 300,000 packages on PyPI and active Q&A forums_
+
+
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-code:{ .lg .middle } __Coding with Python__
