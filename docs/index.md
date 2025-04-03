@@ -7,19 +7,38 @@ Additionally, I’ve included several hands-on projects developed during my free
 
 Feel free to explore, learn, and contribute!
 
-[Subscribe to our newsletter](#){ .md-button }
+<div class="grid cards" markdown>
 
-## Commands
+-   :fontawesome-solid-code:{ .lg .middle } __Coding with Python__
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+    ---
 
-## Project layout
+    Learn the fundamentals of Python, from variables and loops to functions and OOP. Perfect for beginners looking to start their programming journey.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    [:octicons-arrow-right-24: Get Started]([#getting-started](https://joshuaohyq.github.io/AI-Python/Chapter1/)
 
+-   :fontawesome-solid-diagram-project:{ .lg .middle } __Basic Algorithms__
+
+    ---
+
+    Explore essential algorithms like sorting, searching, and recursion. Build a strong foundation for problem-solving in coding interviews and projects.
+
+    [:octicons-arrow-right-24: Learn Algorithms]([#basic-algorithms](https://joshuaohyq.github.io/AI-Python/Chapter1/)
+
+-   :fontawesome-solid-robot:{ .lg .middle } __Advanced Machine Learning__
+
+    ---
+
+    Dive into neural networks, deep learning, and AI model training with Python. Implement real-world ML applications using TensorFlow and scikit-learn.
+
+    [:octicons-arrow-right-24: Explore AI](#advanced-ml)
+
+-   :fontawesome-solid-laptop-code:{ .lg .middle } __Personal Projects__
+
+    ---
+
+    A collection of hands-on projects I’ve built, from data analysis tools to AI-driven applications. Code, tutorials, and insights included.
+
+    [:octicons-arrow-right-24: View Projects](#personal-projects)
+
+</div>
