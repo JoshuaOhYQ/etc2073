@@ -55,7 +55,7 @@ Feel free to explore, learn, and contribute!
 
     [:octicons-arrow-right-24: Explore AI](#advanced-ml)
 
--   :fontawesome-solid-laptop-code:{ .lg .middle } __Personal Projects__
+-   :fontawesome-solid-chart-diagram:{ .lg .middle } __Personal Projects__
 
     ---
 
