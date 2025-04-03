@@ -1,4 +1,4 @@
-# Fuzzy Logic and Fuzzy Inference Systems 
+# Python 3
 ## Fuzzy Logic vs Boolean(Conventional Logic)
 
 ### Boolean or Conventional Logic 
