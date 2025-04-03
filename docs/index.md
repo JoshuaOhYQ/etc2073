@@ -21,7 +21,7 @@ Feel free to explore, learn, and contribute!
 
     ---
 
-    Explore essential algorithms like sorting, searching, and recursion. Build a strong foundation for problem-solving in coding interviews and projects.
+    Explore essential artificial intelligence (AI) algorithms like seacrh algorithms, FOL, Fuzzy Logic and more. Build a strong foundation for problem-solving using concepts of Artificial Intelligence and projects.
 
     [:octicons-arrow-right-24: Learn Algorithms]([#basic-algorithms](https://joshuaohyq.github.io/AI-Python/Chapter1/)
 
