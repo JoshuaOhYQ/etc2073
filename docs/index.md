@@ -13,9 +13,7 @@ Additionally, I’ve included several hands-on projects developed during my free
 
 Feel free to explore, learn, and contribute!
 
-## Why Python for AI?
-
-???+ success "The Perfect AI/ML Language"
+???+ question "Why Python for AI?"
 
     **Simplicity & Readability**  
     :fontawesome-solid-check:{ .green } Intuitive syntax that reads like pseudocode  
@@ -32,13 +30,6 @@ Feel free to explore, learn, and contribute!
     **Cross-Platform**  
     :fontawesome-solid-check:{ .green } Runs anywhere from Raspberry Pi to cloud clusters  
     :fontawesome-solid-check:{ .green } Interoperates with C/C++/Java  
-
-<div class="grid" markdown>
-
-![Python AI Stack](assets/images/python-ai-stack.png){ width=500 align=left }  
-*The Python AI ecosystem - from data collection to deployment*
-
-</div>
 
 <div class="grid cards" markdown>
 
