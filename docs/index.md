@@ -19,7 +19,7 @@ Feel free to explore, learn, and contribute!
 
     ---
 
-    Learn the fundamentals of Python, from variables and loops to functions and OOP. Perfect for beginners looking to start their programming journey.
+    Learn Python fundamentals - from variables and loops to functions and OOP. Perfect for beginners starting their programming journey.
 
     [:octicons-arrow-right-24: Get Started](https://joshuaohyq.github.io/AI-Python/Chapter1/)
 
@@ -27,7 +27,7 @@ Feel free to explore, learn, and contribute!
 
     ---
 
-    Explore essential artificial intelligence (AI) algorithms like seacrh algorithms, FOL, Fuzzy Logic and more. Build a strong foundation for problem-solving using concepts of Artificial Intelligence and projects.
+    Explore essential AI algorithms including search algorithms, FOL, and Fuzzy Logic. Build a strong foundation for AI problem-solving.
 
     [:octicons-arrow-right-24: Learn Algorithms](https://joshuaohyq.github.io/AI-Python/Chapter1/)
 
@@ -35,7 +35,7 @@ Feel free to explore, learn, and contribute!
 
     ---
 
-    Dive into neural networks, deep learning, and AI model training with Python. Implement real-world ML applications using TensorFlow and scikit-learn.
+    Dive into neural networks, deep learning, and AI model training. Implement real-world applications using TensorFlow and scikit-learn.
 
     [:octicons-arrow-right-24: Explore AI](#advanced-ml)
 
@@ -43,7 +43,7 @@ Feel free to explore, learn, and contribute!
 
     ---
 
-    A collection of hands-on projects I’ve built, from data analysis tools to AI-driven applications. Code, tutorials, and insights included.
+    My collection of hands-on projects - from data analysis tools to AI-driven applications. Includes code, tutorials, and insights.
 
     [:octicons-arrow-right-24: View Projects](#personal-projects)
 
