@@ -32,7 +32,7 @@ Feel free to explore, learn, and contribute!
   - [x] Multiprocessing support
 
 - [x] **Vibrant community**  
-  _Over 300,000 packages on PyPI and active Q&A forums_
+  _Over 300,000 packages on PyPI and active Q&A forums_ :material-comment-account-outline:
 
 
 <div class="grid cards" markdown>
