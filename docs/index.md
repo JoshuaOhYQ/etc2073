@@ -1,3 +1,8 @@
+---
+hide:
+  - tabs
+---
+
 # Artificial Intelligence with Python: Notes & Projects
 _By Joshua Oh_
 
