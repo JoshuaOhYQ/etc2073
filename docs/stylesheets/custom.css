@@ -1,11 +1,6 @@
-/* Apply background ONLY to the front page (index.md) */
-.home-background {
+/* Background only for the homepage */
+.md-content__inner.md-typeset h1:first-child {
     background: url("https://raw.githubusercontent.com/JoshuaOhYQ/AI-Python/main/docs/background/image.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-}
-
-/* Keep other pages with default background */
-body:not(.home-background) {
-    background: none;
 }
