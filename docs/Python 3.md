@@ -5,44 +5,72 @@
 
 ## Python 3 Course Outline
 
-### [1. Python Basics](#python-basics)
-- Syntax & structure
-- Variables and data types
-- Input/output operations
+<div class="grid cards" markdown>
 
-### [2. Control Flow & Functions](#control-flow)
-- Conditional statements
-- Loops and iterations
-- Function definitions
+-   :material-code-tags:{ .lg .middle } __[Python Basics](#python-basics)__
 
-### [3. Data Structures](#data-structures)
-- Lists, tuples, dictionaries
-- String manipulation
-- Comprehensions
+    ---
 
-### [4. Object-Oriented Programming](#oop)
-- Classes and objects
-- Inheritance and polymorphism
-- Magic methods
+    Master syntax, variables, and I/O operations. Perfect starting point for beginners.
 
-### [5. Modules & Libraries](#modules)
-- Standard library modules
-- External package management
-- Popular third-party libraries
+    [:octicons-arrow-right-24: Learn Basics](#python-basics)
 
-### [6. Error Handling](#error-handling)
-- Exception handling
-- Custom exceptions
-- Debugging techniques
+-   :material-function-variant:{ .lg .middle } __[Control Flow](#control-flow)__
 
-### [7. File & Data Handling](#file-handling)
-- Working with different file formats
-- Database interactions
-- Data serialization
+    ---
 
-### [8. Advanced Topics](#advanced-topics)
-- Decorators and generators
-- Concurrency and parallelism
-- Web development basics
+    Learn conditionals, loops, and functions - the building blocks of programming logic.
+
+    [:octicons-arrow-right-24: Explore Flow Control](#control-flow)
+
+-   :material-code-json:{ .lg .middle } __[Data Structures](#data-structures)__
+
+    ---
+
+    Work with lists, dictionaries, strings, and comprehensions for efficient data handling.
+
+    [:octicons-arrow-right-24: Study Structures](#data-structures)
+
+-   :material-object-group:{ .lg .middle } __[OOP](#oop)__
+
+    ---
+
+    Understand classes, inheritance, and magic methods for object-oriented design.
+
+    [:octicons-arrow-right-24: Master OOP](#oop)
+
+-   :material-puzzle:{ .lg .middle } __[Modules](#modules)__
+
+    ---
+
+    Leverage Python's standard library and install powerful third-party packages.
+
+    [:octicons-arrow-right-24: Browse Modules](#modules)
+
+-   :material-bug:{ .lg .middle } __[Error Handling](#error-handling)__
+
+    ---
+
+    Implement robust exception handling and debugging techniques.
+
+    [:octicons-arrow-right-24: Handle Errors](#error-handling)
+
+-   :material-database:{ .lg .middle } __[File Handling](#file-handling)__
+
+    ---
+
+    Work with files, databases, and different data formats like JSON and CSV.
+
+    [:octicons-arrow-right-24: Manage Files](#file-handling)
+
+-   :material-rocket-launch:{ .lg .middle } __[Advanced Topics](#advanced-topics)__
+
+    ---
+
+    Dive into decorators, concurrency, and web development fundamentals.
+
+    [:octicons-arrow-right-24: Level Up](#advanced-topics)
+
+</div>
 
 
