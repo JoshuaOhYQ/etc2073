@@ -1,7 +1,11 @@
-# Welcome to ETC2073 (Artificial Intelligence)
+# Artificial Intelligence with Python: Notes & Projects
+_By Joshua Oh_
 
-This is a year 2 subject for Bachelor of Electronic and Electrical Engineering with Honours
+This repository serves as a personal documentation of my notes, learnings, and experiments in Artificial Intelligence (AI) using Python. It covers key concepts, algorithms, and practical implementations in Machine Learning (ML) and other AI techniques.
 
+Additionally, I’ve included several hands-on projects developed during my free time, showcasing applications of ML models, neural networks, and other AI approaches. These projects reflect my exploration of real-world problem-solving using Python’s AI/ML ecosystem.
+
+Feel free to explore, learn, and contribute!
 [Subscribe to our newsletter](#){ .md-button }
 
 ## Commands
