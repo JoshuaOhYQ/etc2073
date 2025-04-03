@@ -96,8 +96,8 @@ markdown_extensions:
   
 nav:
   - Home: index.md
-  - Fundamentals:
+  - Basic Algorithms:
     - "First Order Logic and Expert Systems": Chapter1.md
     - "Fuzzy Logic and Fuzzy Inference Systems": Chapter2.md
-  - Resources:
-    - "References": references.md
+  - Python:
+    - "Python 1": references.md
