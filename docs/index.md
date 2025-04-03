@@ -7,20 +7,11 @@ hide:
 # Artificial Intelligence with Python: Notes & Projects
 _By Joshua Oh_
 
-This repository serves as my personal documentation of notes, learnings, and experiments in **Artificial Intelligence (AI) using Python**. It covers:
+This repository serves as a personal documentation of my notes, learnings, and experiments in Artificial Intelligence (AI) using Python. It covers key concepts, algorithms, and practical implementations in Machine Learning (ML) and other AI techniques.
 
-- Key concepts and algorithms  
-- Practical implementations in Machine Learning (ML)  
-- Various AI techniques and approaches  
+Additionally, I’ve included several hands-on projects developed during my free time, showcasing applications of ML models, neural networks, and other AI approaches. These projects reflect my exploration of real-world problem-solving using Python’s AI / ML ecosystem.
 
-I've also included **hands-on projects** developed during my free time, showcasing applications of:
-- ML models  
-- Neural networks  
-- Other AI approaches  
-
-These projects demonstrate real-world problem-solving using Python's AI/ML ecosystem.  
-
-*Feel free to explore, learn, and contribute!*
+Feel free to explore, learn, and contribute!
 
 <div class="grid cards" markdown>
 
