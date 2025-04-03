@@ -7,7 +7,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-code-tags:{ .lg .middle } __[Python Basics]__
+-   :material-code-tags:{ .lg .middle } __Python Basics__
 
     ---
 
@@ -15,7 +15,7 @@
 
     [:octicons-arrow-right-24: Learn Basics](#python-basics)
 
--   :material-function-variant:{ .lg .middle } __[Control Flow]__
+-   :material-function-variant:{ .lg .middle } __Control Flow__
 
     ---
 
@@ -23,7 +23,7 @@
 
     [:octicons-arrow-right-24: Explore Flow Control](#control-flow)
 
--   :material-code-json:{ .lg .middle } __[Data Structures]__
+-   :material-code-json:{ .lg .middle } __Data Structures__
 
     ---
 
@@ -31,7 +31,7 @@
 
     [:octicons-arrow-right-24: Study Structures](#data-structures)
 
--   :simple-blockchaindotcom:{ .lg .middle } __[OOP]__
+-   :simple-blockchaindotcom:{ .lg .middle } __OOP__
 
     ---
 
@@ -39,7 +39,7 @@
 
     [:octicons-arrow-right-24: Master OOP](#oop)
 
--   :material-puzzle:{ .lg .middle } __[Modules]__
+-   :material-puzzle:{ .lg .middle } __Modules__
 
     ---
 
@@ -47,7 +47,7 @@
 
     [:octicons-arrow-right-24: Browse Modules](#modules)
 
--   :material-bug:{ .lg .middle } __[Error Handling]__
+-   :material-bug:{ .lg .middle } __Error Handling__
 
     ---
 
@@ -55,7 +55,7 @@
 
     [:octicons-arrow-right-24: Handle Errors](#error-handling)
 
--   :material-database:{ .lg .middle } __[File Handling]__
+-   :material-database:{ .lg .middle } __File Handling__
 
     ---
 
@@ -63,7 +63,7 @@
 
     [:octicons-arrow-right-24: Manage Files](#file-handling)
 
--   :material-rocket-launch:{ .lg .middle } __[Advanced Topics]__
+-   :material-rocket-launch:{ .lg .middle } __Advanced Topics__
 
     ---
 
